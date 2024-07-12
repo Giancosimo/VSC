@@ -1,0 +1,24 @@
+.card {
+  border: 1px solid rgb(77, 76, 76);
+  width: min-content;
+}
+
+.card div {
+  border-top: 1px solid rgb(65, 65, 65);
+}
+
+.card:first-child {
+  border-top: unset;
+}
+
+.section {
+  padding: 10px;
+}
+
+.links-container a:visited {
+  color: rgb(33, 78, 78);
+}
+
+.links-container {
+  display: flex;
+}

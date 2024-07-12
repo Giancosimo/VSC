@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 50px;
+  padding: 0 32px 0 0;
+}
+
+.nav-menu {
+  background: #161616;
+  height: 50px;
+  width: 100%;
+  /* padding: 8px;  */
+}
+.shelf-header {
+  display: flex;
+  align-items: center;
+  background: white;
+  height: 57px;
+  width: 100%;
+  padding: 0 8px;
+  justify-content: flex-start;
+}
+
+.nav-menu button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.open-link button {
+  height: 48px;
+  width: 57px;
+}
+
+.shelf_logo {
+  align-items: center;
+  display: flex;
+  font-size: 0;
+  height: 100%;
+  line-height: 0;
+  margin-left: 48px;
+  box-sizing: border-box;
+}
+
+
